@@ -4,10 +4,10 @@ A Golang library - convert numbers to Malay words
 
 ## Installation
 
-* With `go get`:
+With `go get`:
 
 ```bash
-go get -u github.com/wittydata/num2malay
+go get github.com/wittydata/num2malay
 ```
 
 ## Code
@@ -20,7 +20,7 @@ import (
 )
 
 func main() {
-    fmt.Println(num2malay.Convert(300))
+        fmt.Println(num2malay.Convert(300))
 	fmt.Println(num2malay.Convert(301))
 	fmt.Println(num2malay.Convert(11))
 	fmt.Println(num2malay.Convert(150))
